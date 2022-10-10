@@ -4,14 +4,26 @@ body{
     font-family: sans-serif;
     box-sizing: border-box;
 }
+h1{
+    font-size: 40px;
+}
 .half-width{
     width: 40%;
     margin-left: 5%;
     padding: 2%;
     float: left;
 }
+.single{
+    width: 500px;
+    padding: 150px 0px 150px 90px;
+    
+}
+.single-1{
+    margin-left: 0px;
+    text-align: justify;
+}
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 section{
     height: 600px;
@@ -37,17 +49,48 @@ section{
 .biography-area{
     background-image: url("images/biography-bg.png");
 }
-.latest-work-area{
+.latest-area{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .mid-width{
-    width: 25%;
+    width: 26%;
+    margin-left: 5%;
     float: left;
-    margin: 5%;
 }
-.mid-width img{
-    width: 100%;
 
+img{
+    width: 100%;
+}
+.work-area{
+    padding-top: 50px;
+}
+.work-area h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.footer-area{
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+.footer-mail{
+    background-color: rgb(207, 13, 94);
+    color: #fff;
+    width: 400px;
+    margin:30px auto;
+    padding: 30px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.footer-mail a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 300px;
+    
+}
+.footer-area article{
+    margin-top: 100px;
 }
